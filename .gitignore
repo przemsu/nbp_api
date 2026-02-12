@@ -1,6 +1,1 @@
 .env
-dev.duckdb
-.DS_Store
-logs
-target
-.gitkeep
