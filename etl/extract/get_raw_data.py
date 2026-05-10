@@ -31,8 +31,3 @@ def get_raw_nbp_api_data(currency_type: str) -> None:
             json.dump(response.json()[0], file, ensure_ascii=False)
     except requests.exceptions.HTTPError as err:
         print("HTTP error occurred:", err)
-
-if __name__ == '__main__':
-    get_raw_nbp_api_data('main')
-    get_raw_nbp_api_data('alt')
-    get_raw_nbp_api_data('buy_sell')
