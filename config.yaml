@@ -1,0 +1,9 @@
+endpoints:
+  main: 'a'
+  alt: 'b'
+  buy_sell: 'c'
+
+paths:
+  nbp_api_url: 'https://api.nbp.pl/api/exchangerates/tables/'
+  raw_data_dir: 'data/raw'
+  
