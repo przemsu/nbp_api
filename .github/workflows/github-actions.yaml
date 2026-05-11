@@ -3,9 +3,6 @@ name: Daily Pipeline Run
 on:
   schedule:
     - cron: "0 21 * * *"
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
