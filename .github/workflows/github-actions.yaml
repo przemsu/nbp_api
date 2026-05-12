@@ -6,6 +6,9 @@ on:
     - cron: "12 18 * * *"
   workflow_dispatch:
 
+env:
+  TZ: Europe/Warsaw
+
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
