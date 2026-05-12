@@ -2,7 +2,8 @@ name: Daily Pipeline Run
 
 on:
   schedule:
-    - cron: "0 21 * * *"
+    # Changed to 18:12 UTC to avoid delays during peak hour loads (00 min)
+    - cron: "12 18 * * *"
   workflow_dispatch:
 
 jobs:
@@ -19,7 +20,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.9.6"
           cache: 'pip' # Caching dependencies
 
       - name: Install packages
@@ -31,18 +32,18 @@ jobs:
         run: |
           python main.py
 
-      - name: Commit and push RAW data
+      - name: Commit and push RAW data and logs
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           
-          # Ensure directories exist and track changes
-          git add data/raw/
+          # Track changes in data and logs
+          git add data/raw/ logs/
           
           # Only commit if there are changes to avoid workflow failure
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Daily RAW data update [skip ci]"
+            git commit -m "Daily data & logs update [skip ci]"
             git push
           fi
