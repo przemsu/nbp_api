@@ -48,6 +48,7 @@ jobs:
           else
             git commit -m "Daily data & logs update [skip ci]"
             # Pull latest changes and rebase to avoid 'rejected (fetch first)' error
-            git pull --rebase origin main
+            # -X theirs favors the current run's changes in case of conflict
+            git pull --rebase -X theirs origin main
             git push origin main
           fi
