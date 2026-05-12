@@ -25,3 +25,12 @@
 2026-05-12 13:45 | etl.extract.get_raw_data | INFO | Config file loaded.
 2026-05-12 13:46 | etl.extract.get_raw_data | INFO | Request to API for buy_sell successful.
 2026-05-12 13:46 | etl.extract.get_raw_data | INFO | Raw data for buy_sell saved at data/raw/year=2026/month=05/day=12
+2026-05-12 22:05:58 +0200 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-05-12 22:05:59 +0200 | etl.extract.get_raw_data | INFO | Request to API for main successful.
+2026-05-12 22:05:59 +0200 | etl.extract.get_raw_data | INFO | Raw data for main saved at data/raw/year=2026/month=05/day=12
+2026-05-12 22:05:59 +0200 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-05-12 22:06:00 +0200 | etl.extract.get_raw_data | INFO | Request to API for alt successful.
+2026-05-12 22:06:00 +0200 | etl.extract.get_raw_data | INFO | Raw data for alt saved at data/raw/year=2026/month=05/day=12
+2026-05-12 22:06:00 +0200 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-05-12 22:06:01 +0200 | etl.extract.get_raw_data | INFO | Request to API for buy_sell successful.
+2026-05-12 22:06:01 +0200 | etl.extract.get_raw_data | INFO | Raw data for buy_sell saved at data/raw/year=2026/month=05/day=12
