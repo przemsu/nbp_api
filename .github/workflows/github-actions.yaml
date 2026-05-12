@@ -16,12 +16,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history for rebase to work
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: 'pip' # Caching dependencies
+          cache: 'pip'
 
       - name: Install packages
         run: |
@@ -45,5 +47,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Daily data & logs update [skip ci]"
-            git push
+            # Pull latest changes and rebase to avoid 'rejected (fetch first)' error
+            git pull --rebase origin main
+            git push origin main
           fi
