@@ -3,7 +3,7 @@ name: Daily Pipeline Run
 on:
   schedule:
     # Changed to 18:12 UTC to avoid delays during peak hour loads (00 min)
-    - cron: "12 18 * * *"
+    - cron: "12 18 * * 1-5"
   workflow_dispatch:
 
 env:
