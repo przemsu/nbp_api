@@ -4,46 +4,40 @@ from src.utils.load_config import get_curr_code
 from src.utils.daily_dir_creation import create_dir_daily_load
 import logging
 
-# Create logger dedicated for this project
+# Create logger dedicated for this module
 logger = logging.getLogger(__name__)
 
-def get_raw_nbp_api_data(currency_type: str) -> None:
+def get_raw_nbp_api_data(endpoint_type: str) -> None:
     """
-    Function to get data from official Polish NBP API about main and alt cureencies.
-    Data about name, code and mid rate for given date. 
-    Saved as plain JSON in raw folder.
+    Fetch raw data (FX rates or Gold prices) from official NBP API.
+    Saves the first element of the response as a JSON file in the bronze layer.
     """
-
-    # Load API configuration from yaml file
     try:
         config = get_curr_code()
         logger.info("Config file loaded.")
         
-        # Endpoints
-        currency_endpoint = config['endpoints'][currency_type]
-        # NBP API url
+        # Get the relative endpoint path directly from config
+        currency_endpoint = config['endpoints'][endpoint_type]
+        
+        # NBP API base url and directory paths
         api_path = config['paths']['nbp_api_url']
-        # Path for raw data to create dirs per daily load - snapshots
         raw_data_dir_path = config['paths']['raw_data_dir']
-        logger.debug(f"Variables for {currency_type} created from config.")
+        
+        logger.debug(f"Requesting endpoint: {currency_endpoint}")
 
-        # Call API based on input parameter and save json file in raw data folder - BRONZE layer
-        response = requests.get(
-            f"{api_path}{currency_endpoint}",
-            timeout=10
-            )
+        # Call API - snapshot for the current day
+        response = requests.get(f"{api_path}{currency_endpoint}", timeout=10)
         response.raise_for_status()
-        logger.info(f"Request to API for {currency_type} successful.")
+        logger.info(f"API request for {endpoint_type} successful.")
 
-        # Path variable for result files
+        # Prepare directory and save file
         path_to_save_file = create_dir_daily_load(raw_data_dir_path)
-
-        # Saving raw data into location - bronze layer
-        with open(f"{path_to_save_file}/{currency_type}.json", 'w', encoding='utf-8') as file:
-            json.dump(response.json()[0], file, ensure_ascii=False)
-            logger.info(f"Raw data for {currency_type} saved at {path_to_save_file}")
+        
+        with open(f"{path_to_save_file}/{endpoint_type}.json", 'w', encoding='utf-8') as file:
+            # NBP returns a single-element list for both tables and gold (for current day)
+            json.dump(response.json()[0], file, indent=4, ensure_ascii=False)
+            logger.info(f"Raw data for {endpoint_type} saved at {path_to_save_file}")
             
-    except requests.exceptions.RequestException as err:
-        logger.error(f"Error during API request for {currency_type}: {err}")
     except Exception as err:
-        logger.exception(f"Unexpected error occurred while processing {currency_type}")
+        # Use logger.exception to capture the full stack trace for debugging
+        logger.exception(f"Failed to process {endpoint_type}: {err}")
