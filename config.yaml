@@ -7,3 +7,4 @@ endpoints:
 paths:
   nbp_api_url: 'https://api.nbp.pl/api/'
   raw_data_dir: 'data/raw'
+  db_path: 'data/db/nbp_api_data.duckdb'
