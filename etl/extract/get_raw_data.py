@@ -1,6 +1,6 @@
 import requests
 import json
-from src.utils.load_config import get_curr_code
+from src.utils.load_config import get_config
 from src.utils.daily_dir_creation import create_dir_daily_load
 import logging
 
@@ -13,7 +13,7 @@ def get_raw_nbp_api_data(endpoint_type: str) -> None:
     Saves the first element of the response as a JSON file in the bronze layer.
     """
     try:
-        config = get_curr_code()
+        config = get_config()
         logger.info("Config file loaded.")
         
         # Get the relative endpoint path directly from config

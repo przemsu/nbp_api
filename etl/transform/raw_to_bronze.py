@@ -1,5 +1,5 @@
 from src.utils.db_creator import create_db, insert_raw_data
-from src.utils.load_config import get_curr_code
+from src.utils.load_config import get_config
 from pathlib import Path
 import json
 import logging
@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 
 def insert_into_bronze_layer():
 
-    config = get_curr_code()
+    config = get_config()
     db_path = config['paths']['db_path']
 
     create_db()

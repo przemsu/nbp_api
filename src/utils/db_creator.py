@@ -1,11 +1,11 @@
 import duckdb
-from src.utils.load_config import get_curr_code
+from src.utils.load_config import get_config
 import logging
 
 # Create logger dedicated for this module
 logger = logging.getLogger(__name__)
 
-config = get_curr_code()
+config = get_config()
 
 def create_db():
 
