@@ -42,16 +42,20 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           
-          # Track changes in data and logs
+          # Stage changes first
           git add data/raw/ logs/
           
-          # Only commit if there are changes to avoid workflow failure
+          # Only proceed if there are changes
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Daily data & logs update [skip ci]"
-            # Pull latest changes and rebase to avoid 'rejected (fetch first)' error
-            # -X theirs favors the current run's changes in case of conflict
+            # Stash changes to allow a clean rebase
+            git stash
+            # Pull latest changes from origin
             git pull --rebase -X theirs origin main
+            # Pop changes back and commit
+            git stash pop
+            git add data/raw/ logs/
+            git commit -m "Daily data & logs update [skip ci]"
             git push origin main
           fi
