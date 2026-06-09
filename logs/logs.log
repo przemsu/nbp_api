@@ -179,3 +179,17 @@
 2026-06-08 22:32:17 +0200 | etl.extract.get_raw_data | INFO | Raw data for gold saved at data/raw/year=2026/month=06/day=08
 2026-06-08 22:32:17 +0200 | etl.transform.raw_to_bronze | INFO | Found 52 files in data/raw
 2026-06-08 22:32:18 +0200 | etl.transform.raw_to_bronze | INFO | Bronze layer load finished. Success: 52, Errors: 0
+2026-06-09 22:20:26 +0200 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-06-09 22:20:27 +0200 | etl.extract.get_raw_data | INFO | API request for main successful.
+2026-06-09 22:20:27 +0200 | etl.extract.get_raw_data | INFO | Raw data for main saved at data/raw/year=2026/month=06/day=09
+2026-06-09 22:20:27 +0200 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-06-09 22:20:28 +0200 | etl.extract.get_raw_data | INFO | API request for alt successful.
+2026-06-09 22:20:28 +0200 | etl.extract.get_raw_data | INFO | Raw data for alt saved at data/raw/year=2026/month=06/day=09
+2026-06-09 22:20:28 +0200 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-06-09 22:20:28 +0200 | etl.extract.get_raw_data | INFO | API request for buy_sell successful.
+2026-06-09 22:20:28 +0200 | etl.extract.get_raw_data | INFO | Raw data for buy_sell saved at data/raw/year=2026/month=06/day=09
+2026-06-09 22:20:28 +0200 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-06-09 22:20:29 +0200 | etl.extract.get_raw_data | INFO | API request for gold successful.
+2026-06-09 22:20:29 +0200 | etl.extract.get_raw_data | INFO | Raw data for gold saved at data/raw/year=2026/month=06/day=09
+2026-06-09 22:20:29 +0200 | etl.transform.raw_to_bronze | INFO | Found 56 files in data/raw
+2026-06-09 22:20:30 +0200 | etl.transform.raw_to_bronze | INFO | Bronze layer load finished. Success: 56, Errors: 0
