@@ -1,0 +1,86 @@
+{
+    "table": "C",
+    "no": "110/C/NBP/2026",
+    "tradingDate": "2026-06-09",
+    "effectiveDate": "2026-06-10",
+    "rates": [
+        {
+            "currency": "dolar amerykański",
+            "code": "USD",
+            "bid": 3.626,
+            "ask": 3.6992
+        },
+        {
+            "currency": "dolar australijski",
+            "code": "AUD",
+            "bid": 2.5562,
+            "ask": 2.6078
+        },
+        {
+            "currency": "dolar kanadyjski",
+            "code": "CAD",
+            "bid": 2.6014,
+            "ask": 2.654
+        },
+        {
+            "currency": "euro",
+            "code": "EUR",
+            "bid": 4.1939,
+            "ask": 4.2787
+        },
+        {
+            "currency": "forint (Węgry)",
+            "code": "HUF",
+            "bid": 0.011807,
+            "ask": 0.012045
+        },
+        {
+            "currency": "frank szwajcarski",
+            "code": "CHF",
+            "bid": 4.5554,
+            "ask": 4.6474
+        },
+        {
+            "currency": "funt szterling",
+            "code": "GBP",
+            "bid": 4.858,
+            "ask": 4.9562
+        },
+        {
+            "currency": "jen (Japonia)",
+            "code": "JPY",
+            "bid": 0.022633,
+            "ask": 0.023091
+        },
+        {
+            "currency": "korona czeska",
+            "code": "CZK",
+            "bid": 0.1735,
+            "ask": 0.1771
+        },
+        {
+            "currency": "korona duńska",
+            "code": "DKK",
+            "bid": 0.5611,
+            "ask": 0.5725
+        },
+        {
+            "currency": "korona norweska",
+            "code": "NOK",
+            "bid": 0.3822,
+            "ask": 0.39
+        },
+        {
+            "currency": "korona szwedzka",
+            "code": "SEK",
+            "bid": 0.3849,
+            "ask": 0.3927
+        },
+        {
+            "currency": "SDR (MFW)",
+            "code": "XDR",
+            "bid": 4.953,
+            "ask": 5.053
+        }
+    ]
+}
