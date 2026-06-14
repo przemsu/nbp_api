@@ -43,7 +43,7 @@ jobs:
           git config --global user.email "github-actions@github.com"
           
           # Stage changes first
-          git add data/raw/ logs/
+          git add data/ logs/
           
           # Only proceed if there are changes
           if git diff --cached --quiet; then
