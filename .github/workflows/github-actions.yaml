@@ -55,7 +55,7 @@ jobs:
             git pull --rebase -X theirs origin main
             # Pop changes back and commit
             git stash pop
-            git add data/raw/ logs/
+            git add data/ logs/
             git commit -m "Daily data & logs update [skip ci]"
             git push origin main
           fi
