@@ -1,8 +1,8 @@
 endpoints:
-  main: 'exchangerates/tables/a'
-  alt: 'exchangerates/tables/b'
-  buy_sell: 'exchangerates/tables/c'
-  gold: 'cenyzlota'
+  main: 'exchangerates/tables/a/'
+  alt: 'exchangerates/tables/b/'
+  buy_sell: 'exchangerates/tables/c/'
+  gold: 'cenyzlota/'
 
 paths:
   nbp_api_url: 'https://api.nbp.pl/api/'
