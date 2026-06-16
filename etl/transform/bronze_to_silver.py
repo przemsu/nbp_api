@@ -12,7 +12,7 @@ def insert_into_silver_layer():
     con = duckdb.connect(db_path)
 
     p = Path(config['paths']['sql_files_path']['ddl'])
-    files = sorted(list(p.rglob('*.sql')))
+    files = sorted(list(p.rglob('*_vw_*.sql')))
 
     for f in files:
         with open(f, 'r') as ddl:
