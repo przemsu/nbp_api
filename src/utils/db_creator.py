@@ -20,7 +20,7 @@ def create_db():
         raw_content JSON,
         loaded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         UNIQUE(endpoint_type, extraction_date)
-        )
+        );
     '''
     )
 

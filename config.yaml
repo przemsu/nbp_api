@@ -8,3 +8,6 @@ paths:
   nbp_api_url: 'https://api.nbp.pl/api/'
   raw_data_dir: 'data/raw'
   db_path: 'data/db/raw_nbp_api_data.duckdb'
+  sql_files_path:
+    ddl: 'data/sql_files/ddl/'
+    dml: 'data/sql_files/dml/'

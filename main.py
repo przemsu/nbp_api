@@ -1,6 +1,7 @@
 from etl.extract.get_raw_data import get_raw_nbp_api_data
 from src.utils.logging_setup import setup_logging
 from etl.transform.raw_to_bronze import insert_into_bronze_layer
+from etl.transform.bronze_to_silver import insert_into_silver_layer
 from etl.extract.missing_values import get_missing_data
 from src.utils.load_config import get_config
 import logging
@@ -30,3 +31,4 @@ if __name__ == '__main__':
         get_raw_nbp_api_data(k)
     # In memory database loading
     insert_into_bronze_layer()
+    insert_into_silver_layer()
