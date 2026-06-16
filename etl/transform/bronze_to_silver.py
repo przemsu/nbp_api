@@ -20,7 +20,7 @@ def insert_into_silver_layer():
 
         try:
             con.execute(q_sql)
-            logger.info(f"View {f.stem.upper()} created.")
+            logger.info(f"View {f.stem.upper()[6:]} created.")
         except Exception as e:
             logger.error(f"Failed to process: {e}")
     
