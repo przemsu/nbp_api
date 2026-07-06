@@ -1,0 +1,167 @@
+{
+    "table": "A",
+    "no": "128/A/NBP/2026",
+    "effectiveDate": "2026-07-06",
+    "rates": [
+        {
+            "currency": "bat (Tajlandia)",
+            "code": "THB",
+            "mid": 0.1127
+        },
+        {
+            "currency": "dolar amerykański",
+            "code": "USD",
+            "mid": 3.754
+        },
+        {
+            "currency": "dolar australijski",
+            "code": "AUD",
+            "mid": 2.6023
+        },
+        {
+            "currency": "dolar Hongkongu",
+            "code": "HKD",
+            "mid": 0.4787
+        },
+        {
+            "currency": "dolar kanadyjski",
+            "code": "CAD",
+            "mid": 2.6385
+        },
+        {
+            "currency": "dolar nowozelandzki",
+            "code": "NZD",
+            "mid": 2.1333
+        },
+        {
+            "currency": "dolar singapurski",
+            "code": "SGD",
+            "mid": 2.9022
+        },
+        {
+            "currency": "euro",
+            "code": "EUR",
+            "mid": 4.2872
+        },
+        {
+            "currency": "forint (Węgry)",
+            "code": "HUF",
+            "mid": 0.012141
+        },
+        {
+            "currency": "frank szwajcarski",
+            "code": "CHF",
+            "mid": 4.661
+        },
+        {
+            "currency": "funt szterling",
+            "code": "GBP",
+            "mid": 5.0069
+        },
+        {
+            "currency": "hrywna (Ukraina)",
+            "code": "UAH",
+            "mid": 0.0842
+        },
+        {
+            "currency": "jen (Japonia)",
+            "code": "JPY",
+            "mid": 0.023137
+        },
+        {
+            "currency": "korona czeska",
+            "code": "CZK",
+            "mid": 0.1775
+        },
+        {
+            "currency": "korona duńska",
+            "code": "DKK",
+            "mid": 0.5736
+        },
+        {
+            "currency": "korona islandzka",
+            "code": "ISK",
+            "mid": 0.029772
+        },
+        {
+            "currency": "korona norweska",
+            "code": "NOK",
+            "mid": 0.3816
+        },
+        {
+            "currency": "korona szwedzka",
+            "code": "SEK",
+            "mid": 0.3883
+        },
+        {
+            "currency": "lej rumuński",
+            "code": "RON",
+            "mid": 0.8198
+        },
+        {
+            "currency": "lira turecka",
+            "code": "TRY",
+            "mid": 0.0801
+        },
+        {
+            "currency": "nowy izraelski szekel",
+            "code": "ILS",
+            "mid": 1.2491
+        },
+        {
+            "currency": "peso chilijskie",
+            "code": "CLP",
+            "mid": 0.004076
+        },
+        {
+            "currency": "peso filipińskie",
+            "code": "PHP",
+            "mid": 0.061
+        },
+        {
+            "currency": "peso meksykańskie",
+            "code": "MXN",
+            "mid": 0.2149
+        },
+        {
+            "currency": "rand (Republika Południowej Afryki)",
+            "code": "ZAR",
+            "mid": 0.2315
+        },
+        {
+            "currency": "real (Brazylia)",
+            "code": "BRL",
+            "mid": 0.7263
+        },
+        {
+            "currency": "ringgit (Malezja)",
+            "code": "MYR",
+            "mid": 0.92
+        },
+        {
+            "currency": "rupia indonezyjska",
+            "code": "IDR",
+            "mid": 0.00020867
+        },
+        {
+            "currency": "rupia indyjska",
+            "code": "INR",
+            "mid": 0.039326
+        },
+        {
+            "currency": "won południowokoreański",
+            "code": "KRW",
+            "mid": 0.002448
+        },
+        {
+            "currency": "yuan renminbi (Chiny)",
+            "code": "CNY",
+            "mid": 0.5527
+        },
+        {
+            "currency": "SDR (MFW)",
+            "code": "XDR",
+            "mid": 5.1061
+        }
+    ]
+}
