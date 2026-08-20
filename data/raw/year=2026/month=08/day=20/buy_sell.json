@@ -1,0 +1,86 @@
+{
+    "table": "C",
+    "no": "161/C/NBP/2026",
+    "tradingDate": "2026-08-19",
+    "effectiveDate": "2026-08-20",
+    "rates": [
+        {
+            "currency": "dolar amerykański",
+            "code": "USD",
+            "bid": 3.6642,
+            "ask": 3.7382
+        },
+        {
+            "currency": "dolar australijski",
+            "code": "AUD",
+            "bid": 2.6084,
+            "ask": 2.661
+        },
+        {
+            "currency": "dolar kanadyjski",
+            "code": "CAD",
+            "bid": 2.6509,
+            "ask": 2.7045
+        },
+        {
+            "currency": "euro",
+            "code": "EUR",
+            "bid": 4.271,
+            "ask": 4.3572
+        },
+        {
+            "currency": "forint (Węgry)",
+            "code": "HUF",
+            "bid": 0.011749,
+            "ask": 0.011987
+        },
+        {
+            "currency": "frank szwajcarski",
+            "code": "CHF",
+            "bid": 4.5654,
+            "ask": 4.6576
+        },
+        {
+            "currency": "funt szterling",
+            "code": "GBP",
+            "bid": 4.9894,
+            "ask": 5.0902
+        },
+        {
+            "currency": "jen (Japonia)",
+            "code": "JPY",
+            "bid": 0.023125,
+            "ask": 0.023593
+        },
+        {
+            "currency": "korona czeska",
+            "code": "CZK",
+            "bid": 0.1768,
+            "ask": 0.1804
+        },
+        {
+            "currency": "korona duńska",
+            "code": "DKK",
+            "bid": 0.5713,
+            "ask": 0.5829
+        },
+        {
+            "currency": "korona norweska",
+            "code": "NOK",
+            "bid": 0.3922,
+            "ask": 0.4002
+        },
+        {
+            "currency": "korona szwedzka",
+            "code": "SEK",
+            "bid": 0.3878,
+            "ask": 0.3956
+        },
+        {
+            "currency": "SDR (MFW)",
+            "code": "XDR",
+            "bid": 5.0451,
+            "ask": 5.1471
+        }
+    ]
+}
