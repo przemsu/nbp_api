@@ -1,0 +1,86 @@
+{
+    "table": "C",
+    "no": "166/C/NBP/2026",
+    "tradingDate": "2026-08-26",
+    "effectiveDate": "2026-08-27",
+    "rates": [
+        {
+            "currency": "dolar amerykański",
+            "code": "USD",
+            "bid": 3.6526,
+            "ask": 3.7264
+        },
+        {
+            "currency": "dolar australijski",
+            "code": "AUD",
+            "bid": 2.621,
+            "ask": 2.674
+        },
+        {
+            "currency": "dolar kanadyjski",
+            "code": "CAD",
+            "bid": 2.6337,
+            "ask": 2.6869
+        },
+        {
+            "currency": "euro",
+            "code": "EUR",
+            "bid": 4.2564,
+            "ask": 4.3424
+        },
+        {
+            "currency": "forint (Węgry)",
+            "code": "HUF",
+            "bid": 0.011803,
+            "ask": 0.012041
+        },
+        {
+            "currency": "frank szwajcarski",
+            "code": "CHF",
+            "bid": 4.5344,
+            "ask": 4.626
+        },
+        {
+            "currency": "funt szterling",
+            "code": "GBP",
+            "bid": 4.9684,
+            "ask": 5.0688
+        },
+        {
+            "currency": "jen (Japonia)",
+            "code": "JPY",
+            "bid": 0.022916,
+            "ask": 0.023378
+        },
+        {
+            "currency": "korona czeska",
+            "code": "CZK",
+            "bid": 0.1768,
+            "ask": 0.1804
+        },
+        {
+            "currency": "korona duńska",
+            "code": "DKK",
+            "bid": 0.5693,
+            "ask": 0.5809
+        },
+        {
+            "currency": "korona norweska",
+            "code": "NOK",
+            "bid": 0.3912,
+            "ask": 0.3992
+        },
+        {
+            "currency": "korona szwedzka",
+            "code": "SEK",
+            "bid": 0.3837,
+            "ask": 0.3915
+        },
+        {
+            "currency": "SDR (MFW)",
+            "code": "XDR",
+            "bid": 5.0089,
+            "ask": 5.1101
+        }
+    ]
+}
