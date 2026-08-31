@@ -2151,3 +2151,44 @@
 2026-08-29 03:44:14 +0200 | etl.transform.bronze_to_silver | INFO | View SILVER_GOLD_RATES created.
 2026-08-29 03:44:14 +0200 | etl.transform.bronze_to_silver | INFO | View GOLD_WEALTH_INDEX created.
 2026-08-29 03:44:14 +0200 | etl.transform.bronze_to_silver | INFO | Silver layer load finished. 4 views added to db.
+2026-09-01 00:48:16 +0200 | __main__ | INFO | Found 2 missing dates.
+2026-09-01 00:48:16 +0200 | __main__ | INFO | Starting Reactive Backfill for 2 days.
+2026-09-01 00:48:16 +0200 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-09-01 00:48:17 +0200 | etl.extract.get_raw_data | INFO | API request for main successful.
+2026-09-01 00:48:17 +0200 | etl.extract.get_raw_data | INFO | Raw data for main saved at data/raw/year=2026/month=08/day=31
+2026-09-01 00:48:17 +0200 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-09-01 00:48:18 +0200 | etl.extract.get_raw_data | INFO | Brak danych w NBP. Prawdopodobnie święto. Pomijam datę.
+2026-09-01 00:48:18 +0200 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-09-01 00:48:19 +0200 | etl.extract.get_raw_data | INFO | API request for buy_sell successful.
+2026-09-01 00:48:19 +0200 | etl.extract.get_raw_data | INFO | Raw data for buy_sell saved at data/raw/year=2026/month=08/day=31
+2026-09-01 00:48:19 +0200 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-09-01 00:48:20 +0200 | etl.extract.get_raw_data | INFO | API request for gold successful.
+2026-09-01 00:48:20 +0200 | etl.extract.get_raw_data | INFO | Raw data for gold saved at data/raw/year=2026/month=08/day=31
+2026-09-01 00:48:20 +0200 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-09-01 00:48:21 +0200 | etl.extract.get_raw_data | INFO | Brak danych w NBP. Prawdopodobnie święto. Pomijam datę.
+2026-09-01 00:48:21 +0200 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-09-01 00:48:22 +0200 | etl.extract.get_raw_data | INFO | Brak danych w NBP. Prawdopodobnie święto. Pomijam datę.
+2026-09-01 00:48:22 +0200 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-09-01 00:48:22 +0200 | etl.extract.get_raw_data | INFO | Brak danych w NBP. Prawdopodobnie święto. Pomijam datę.
+2026-09-01 00:48:22 +0200 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-09-01 00:48:23 +0200 | etl.extract.get_raw_data | INFO | Brak danych w NBP. Prawdopodobnie święto. Pomijam datę.
+2026-09-01 00:48:23 +0200 | __main__ | INFO | Starting current rates download (Daily Load)...
+2026-09-01 00:48:23 +0200 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-09-01 00:48:24 +0200 | etl.extract.get_raw_data | INFO | API request for main successful.
+2026-09-01 00:48:24 +0200 | etl.extract.get_raw_data | INFO | Raw data for main saved at data/raw/year=2026/month=09/day=01
+2026-09-01 00:48:24 +0200 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-09-01 00:48:24 +0200 | etl.extract.get_raw_data | INFO | API request for alt successful.
+2026-09-01 00:48:24 +0200 | etl.extract.get_raw_data | INFO | Raw data for alt saved at data/raw/year=2026/month=09/day=01
+2026-09-01 00:48:24 +0200 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-09-01 00:48:25 +0200 | etl.extract.get_raw_data | INFO | API request for buy_sell successful.
+2026-09-01 00:48:25 +0200 | etl.extract.get_raw_data | INFO | Raw data for buy_sell saved at data/raw/year=2026/month=09/day=01
+2026-09-01 00:48:25 +0200 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-09-01 00:48:26 +0200 | etl.extract.get_raw_data | INFO | API request for gold successful.
+2026-09-01 00:48:26 +0200 | etl.extract.get_raw_data | INFO | Raw data for gold saved at data/raw/year=2026/month=09/day=01
+2026-09-01 00:48:26 +0200 | etl.transform.raw_to_bronze | INFO | Found 306 files in data/raw
+2026-09-01 00:48:27 +0200 | etl.transform.raw_to_bronze | INFO | Bronze layer load finished. Success: 306, Errors: 0
+2026-09-01 00:48:27 +0200 | etl.transform.bronze_to_silver | INFO | View SILVER_MID_CURRENCIES_RATES created.
+2026-09-01 00:48:27 +0200 | etl.transform.bronze_to_silver | INFO | View SILVER_BUY_SELL_CURRENCIES created.
+2026-09-01 00:48:27 +0200 | etl.transform.bronze_to_silver | INFO | View SILVER_GOLD_RATES created.
+2026-09-01 00:48:27 +0200 | etl.transform.bronze_to_silver | INFO | View GOLD_WEALTH_INDEX created.
+2026-09-01 00:48:27 +0200 | etl.transform.bronze_to_silver | INFO | Silver layer load finished. 4 views added to db.
