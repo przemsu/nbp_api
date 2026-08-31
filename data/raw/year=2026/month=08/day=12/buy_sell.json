@@ -1,0 +1,86 @@
+{
+    "table": "C",
+    "no": "155/C/NBP/2026",
+    "tradingDate": "2026-08-11",
+    "effectiveDate": "2026-08-12",
+    "rates": [
+        {
+            "currency": "dolar amerykański",
+            "code": "USD",
+            "bid": 3.6849,
+            "ask": 3.7593
+        },
+        {
+            "currency": "dolar australijski",
+            "code": "AUD",
+            "bid": 2.6043,
+            "ask": 2.6569
+        },
+        {
+            "currency": "dolar kanadyjski",
+            "code": "CAD",
+            "bid": 2.6439,
+            "ask": 2.6973
+        },
+        {
+            "currency": "euro",
+            "code": "EUR",
+            "bid": 4.2538,
+            "ask": 4.3398
+        },
+        {
+            "currency": "forint (Węgry)",
+            "code": "HUF",
+            "bid": 0.011675,
+            "ask": 0.011911
+        },
+        {
+            "currency": "frank szwajcarski",
+            "code": "CHF",
+            "bid": 4.5476,
+            "ask": 4.6394
+        },
+        {
+            "currency": "funt szterling",
+            "code": "GBP",
+            "bid": 4.9749,
+            "ask": 5.0755
+        },
+        {
+            "currency": "jen (Japonia)",
+            "code": "JPY",
+            "bid": 0.02314,
+            "ask": 0.023608
+        },
+        {
+            "currency": "korona czeska",
+            "code": "CZK",
+            "bid": 0.1755,
+            "ask": 0.1791
+        },
+        {
+            "currency": "korona duńska",
+            "code": "DKK",
+            "bid": 0.5691,
+            "ask": 0.5805
+        },
+        {
+            "currency": "korona norweska",
+            "code": "NOK",
+            "bid": 0.3877,
+            "ask": 0.3955
+        },
+        {
+            "currency": "korona szwedzka",
+            "code": "SEK",
+            "bid": 0.388,
+            "ask": 0.3958
+        },
+        {
+            "currency": "SDR (MFW)",
+            "code": "XDR",
+            "bid": 5.0322,
+            "ask": 5.1338
+        }
+    ]
+}

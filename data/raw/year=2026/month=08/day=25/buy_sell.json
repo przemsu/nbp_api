@@ -1,0 +1,86 @@
+{
+    "table": "C",
+    "no": "164/C/NBP/2026",
+    "tradingDate": "2026-08-24",
+    "effectiveDate": "2026-08-25",
+    "rates": [
+        {
+            "currency": "dolar amerykański",
+            "code": "USD",
+            "bid": 3.6533,
+            "ask": 3.7271
+        },
+        {
+            "currency": "dolar australijski",
+            "code": "AUD",
+            "bid": 2.6174,
+            "ask": 2.6702
+        },
+        {
+            "currency": "dolar kanadyjski",
+            "code": "CAD",
+            "bid": 2.6423,
+            "ask": 2.6957
+        },
+        {
+            "currency": "euro",
+            "code": "EUR",
+            "bid": 4.2618,
+            "ask": 4.3478
+        },
+        {
+            "currency": "forint (Węgry)",
+            "code": "HUF",
+            "bid": 0.011746,
+            "ask": 0.011984
+        },
+        {
+            "currency": "frank szwajcarski",
+            "code": "CHF",
+            "bid": 4.5546,
+            "ask": 4.6466
+        },
+        {
+            "currency": "funt szterling",
+            "code": "GBP",
+            "bid": 4.9837,
+            "ask": 5.0843
+        },
+        {
+            "currency": "jen (Japonia)",
+            "code": "JPY",
+            "bid": 0.022961,
+            "ask": 0.023425
+        },
+        {
+            "currency": "korona czeska",
+            "code": "CZK",
+            "bid": 0.1768,
+            "ask": 0.1804
+        },
+        {
+            "currency": "korona duńska",
+            "code": "DKK",
+            "bid": 0.57,
+            "ask": 0.5816
+        },
+        {
+            "currency": "korona norweska",
+            "code": "NOK",
+            "bid": 0.3929,
+            "ask": 0.4009
+        },
+        {
+            "currency": "korona szwedzka",
+            "code": "SEK",
+            "bid": 0.3847,
+            "ask": 0.3925
+        },
+        {
+            "currency": "SDR (MFW)",
+            "code": "XDR",
+            "bid": 5.0061,
+            "ask": 5.1073
+        }
+    ]
+}

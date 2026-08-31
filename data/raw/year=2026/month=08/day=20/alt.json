@@ -1,0 +1,587 @@
+{
+    "table": "B",
+    "no": "033/B/NBP/2026",
+    "effectiveDate": "2026-08-19",
+    "rates": [
+        {
+            "currency": "afgani (Afganistan)",
+            "code": "AFN",
+            "mid": 0.05741
+        },
+        {
+            "currency": "ariary (Madagaskar)",
+            "code": "MGA",
+            "mid": 0.000871
+        },
+        {
+            "currency": "balboa (Panama)",
+            "code": "PAB",
+            "mid": 3.7306
+        },
+        {
+            "currency": "birr etiopski",
+            "code": "ETB",
+            "mid": 0.023
+        },
+        {
+            "currency": "boliwar soberano (Wenezuela)",
+            "code": "VES",
+            "mid": 0.0048
+        },
+        {
+            "currency": "boliwiano (Boliwia)",
+            "code": "BOB",
+            "mid": 0.3229
+        },
+        {
+            "currency": "colon kostarykański",
+            "code": "CRC",
+            "mid": 0.008337
+        },
+        {
+            "currency": "colon salwadorski",
+            "code": "SVC",
+            "mid": 0.4262
+        },
+        {
+            "currency": "cordoba oro (Nikaragua)",
+            "code": "NIO",
+            "mid": 0.1014
+        },
+        {
+            "currency": "dalasi (Gambia)",
+            "code": "GMD",
+            "mid": 0.0499
+        },
+        {
+            "currency": "denar (Macedonia Północna)",
+            "code": "MKD",
+            "mid": 0.070296
+        },
+        {
+            "currency": "dinar algierski",
+            "code": "DZD",
+            "mid": 0.028066
+        },
+        {
+            "currency": "dinar bahrajski",
+            "code": "BHD",
+            "mid": 9.8964
+        },
+        {
+            "currency": "dinar iracki",
+            "code": "IQD",
+            "mid": 0.002848
+        },
+        {
+            "currency": "dinar jordański",
+            "code": "JOD",
+            "mid": 5.2623
+        },
+        {
+            "currency": "dinar kuwejcki",
+            "code": "KWD",
+            "mid": 12.1468
+        },
+        {
+            "currency": "dinar libijski",
+            "code": "LYD",
+            "mid": 0.5873
+        },
+        {
+            "currency": "dinar serbski",
+            "code": "RSD",
+            "mid": 0.0369
+        },
+        {
+            "currency": "dinar tunezyjski",
+            "code": "TND",
+            "mid": 1.2806
+        },
+        {
+            "currency": "dirham marokański",
+            "code": "MAD",
+            "mid": 0.4014
+        },
+        {
+            "currency": "dirham ZEA (Zjednoczone Emiraty Arabskie)",
+            "code": "AED",
+            "mid": 1.0159
+        },
+        {
+            "currency": "dobra (Wyspy Świętego Tomasza i Książęca)",
+            "code": "STN",
+            "mid": 0.1748
+        },
+        {
+            "currency": "dolar bahamski",
+            "code": "BSD",
+            "mid": 3.7306
+        },
+        {
+            "currency": "dolar barbadoski",
+            "code": "BBD",
+            "mid": 1.8525
+        },
+        {
+            "currency": "dolar belizeński",
+            "code": "BZD",
+            "mid": 1.8552
+        },
+        {
+            "currency": "dolar brunejski",
+            "code": "BND",
+            "mid": 2.9228
+        },
+        {
+            "currency": "dolar Fidżi",
+            "code": "FJD",
+            "mid": 1.6878
+        },
+        {
+            "currency": "dolar gujański",
+            "code": "GYD",
+            "mid": 0.017834
+        },
+        {
+            "currency": "dolar jamajski",
+            "code": "JMD",
+            "mid": 0.0236
+        },
+        {
+            "currency": "dolar liberyjski",
+            "code": "LRD",
+            "mid": 0.0206
+        },
+        {
+            "currency": "dolar namibijski",
+            "code": "NAD",
+            "mid": 0.2301
+        },
+        {
+            "currency": "dolar surinamski",
+            "code": "SRD",
+            "mid": 0.0977
+        },
+        {
+            "currency": "dolar Trynidadu i Tobago",
+            "code": "TTD",
+            "mid": 0.5501
+        },
+        {
+            "currency": "dolar wschodniokaraibski",
+            "code": "XCD",
+            "mid": 1.3801
+        },
+        {
+            "currency": "dolar Wysp Salomona",
+            "code": "SBD",
+            "mid": 0.4698
+        },
+        {
+            "currency": "dong (Wietnam)",
+            "code": "VND",
+            "mid": 0.00014252
+        },
+        {
+            "currency": "dram (Armenia)",
+            "code": "AMD",
+            "mid": 0.010257
+        },
+        {
+            "currency": "escudo Zielonego Przylądka",
+            "code": "CVE",
+            "mid": 0.0391
+        },
+        {
+            "currency": "florin arubański",
+            "code": "AWG",
+            "mid": 2.0847
+        },
+        {
+            "currency": "frank burundyjski",
+            "code": "BIF",
+            "mid": 0.001248
+        },
+        {
+            "currency": "frank CFA BCEAO ",
+            "code": "XOF",
+            "mid": 0.006583
+        },
+        {
+            "currency": "frank CFA BEAC",
+            "code": "XAF",
+            "mid": 0.006589
+        },
+        {
+            "currency": "frank CFP  ",
+            "code": "XPF",
+            "mid": 0.036252
+        },
+        {
+            "currency": "frank Dżibuti",
+            "code": "DJF",
+            "mid": 0.020952
+        },
+        {
+            "currency": "frank gwinejski",
+            "code": "GNF",
+            "mid": 0.000425
+        },
+        {
+            "currency": "frank Komorów",
+            "code": "KMF",
+            "mid": 0.008759
+        },
+        {
+            "currency": "frank kongijski (Dem. Republika Konga)",
+            "code": "CDF",
+            "mid": 0.001627
+        },
+        {
+            "currency": "frank rwandyjski",
+            "code": "RWF",
+            "mid": 0.002532
+        },
+        {
+            "currency": "funt egipski",
+            "code": "EGP",
+            "mid": 0.0737
+        },
+        {
+            "currency": "funt gibraltarski",
+            "code": "GIP",
+            "mid": 5.056
+        },
+        {
+            "currency": "funt libański",
+            "code": "LBP",
+            "mid": 4.2e-05
+        },
+        {
+            "currency": "funt południowosudański",
+            "code": "SSP",
+            "mid": 0.000664
+        },
+        {
+            "currency": "funt sudański",
+            "code": "SDG",
+            "mid": 0.006216
+        },
+        {
+            "currency": "funt syryjski",
+            "code": "SYP",
+            "mid": 0.030582
+        },
+        {
+            "currency": "Ghana cedi ",
+            "code": "GHS",
+            "mid": 0.3392
+        },
+        {
+            "currency": "gourde (Haiti)",
+            "code": "HTG",
+            "mid": 0.0285
+        },
+        {
+            "currency": "guarani (Paragwaj)",
+            "code": "PYG",
+            "mid": 0.00062
+        },
+        {
+            "currency": "gulden karaibski",
+            "code": "XCG",
+            "mid": 2.0702
+        },
+        {
+            "currency": "kina (Papua-Nowa Gwinea)",
+            "code": "PGK",
+            "mid": 0.8424
+        },
+        {
+            "currency": "kip (Laos)",
+            "code": "LAK",
+            "mid": 0.000166
+        },
+        {
+            "currency": "kwacha malawijska",
+            "code": "MWK",
+            "mid": 0.002152
+        },
+        {
+            "currency": "kwacha zambijska",
+            "code": "ZMW",
+            "mid": 0.1985
+        },
+        {
+            "currency": "kwanza (Angola)",
+            "code": "AOA",
+            "mid": 0.004058
+        },
+        {
+            "currency": "kyat (Myanmar, Birma)",
+            "code": "MMK",
+            "mid": 0.001777
+        },
+        {
+            "currency": "lari (Gruzja)",
+            "code": "GEL",
+            "mid": 1.4312
+        },
+        {
+            "currency": "lej Mołdawii",
+            "code": "MDL",
+            "mid": 0.2163
+        },
+        {
+            "currency": "lek (Albania)",
+            "code": "ALL",
+            "mid": 0.046639
+        },
+        {
+            "currency": "lempira (Honduras)",
+            "code": "HNL",
+            "mid": 0.1391
+        },
+        {
+            "currency": "leone (Sierra Leone)",
+            "code": "SLE",
+            "mid": 0.1517
+        },
+        {
+            "currency": "lilangeni (Eswatini)",
+            "code": "SZL",
+            "mid": 0.2301
+        },
+        {
+            "currency": "loti (Lesotho)",
+            "code": "LSL",
+            "mid": 0.2301
+        },
+        {
+            "currency": "manat azerbejdżański",
+            "code": "AZN",
+            "mid": 2.1947
+        },
+        {
+            "currency": "metical (Mozambik)",
+            "code": "MZN",
+            "mid": 0.0584
+        },
+        {
+            "currency": "naira (Nigeria)",
+            "code": "NGN",
+            "mid": 0.002765
+        },
+        {
+            "currency": "nakfa (Erytrea)",
+            "code": "ERN",
+            "mid": 0.2475
+        },
+        {
+            "currency": "nowy dolar tajwański",
+            "code": "TWD",
+            "mid": 0.1171
+        },
+        {
+            "currency": "nowy manat (Turkmenistan)",
+            "code": "TMT",
+            "mid": 1.067
+        },
+        {
+            "currency": "ouguiya (Mauretania)",
+            "code": "MRU",
+            "mid": 0.0927
+        },
+        {
+            "currency": "pa'anga (Tonga)",
+            "code": "TOP",
+            "mid": 1.5791
+        },
+        {
+            "currency": "pataca (Makau)",
+            "code": "MOP",
+            "mid": 0.4616
+        },
+        {
+            "currency": "peso argentyńskie",
+            "code": "ARS",
+            "mid": 0.002496
+        },
+        {
+            "currency": "peso dominikańskie",
+            "code": "DOP",
+            "mid": 0.0635
+        },
+        {
+            "currency": "peso kolumbijskie",
+            "code": "COP",
+            "mid": 0.001205
+        },
+        {
+            "currency": "peso kubańskie",
+            "code": "CUP",
+            "mid": 3.7306
+        },
+        {
+            "currency": "peso urugwajskie",
+            "code": "UYU",
+            "mid": 0.0931
+        },
+        {
+            "currency": "pula (Botswana)",
+            "code": "BWP",
+            "mid": 0.2766
+        },
+        {
+            "currency": "quetzal (Gwatemala)",
+            "code": "GTQ",
+            "mid": 0.4889
+        },
+        {
+            "currency": "rial irański",
+            "code": "IRR",
+            "mid": 2.71e-06
+        },
+        {
+            "currency": "rial jemeński",
+            "code": "YER",
+            "mid": 0.015739
+        },
+        {
+            "currency": "rial katarski",
+            "code": "QAR",
+            "mid": 1.0235
+        },
+        {
+            "currency": "rial omański",
+            "code": "OMR",
+            "mid": 9.6909
+        },
+        {
+            "currency": "rial saudyjski",
+            "code": "SAR",
+            "mid": 0.9938
+        },
+        {
+            "currency": "riel (Kambodża)",
+            "code": "KHR",
+            "mid": 0.000923
+        },
+        {
+            "currency": "rubel białoruski",
+            "code": "BYN",
+            "mid": 1.2267
+        },
+        {
+            "currency": "rubel rosyjski",
+            "code": "RUB",
+            "mid": 0.0438
+        },
+        {
+            "currency": "rupia lankijska",
+            "code": "LKR",
+            "mid": 0.011274
+        },
+        {
+            "currency": "rupia (Malediwy)",
+            "code": "MVR",
+            "mid": 0.2413
+        },
+        {
+            "currency": "rupia Mauritiusu",
+            "code": "MUR",
+            "mid": 0.0794
+        },
+        {
+            "currency": "rupia nepalska",
+            "code": "NPR",
+            "mid": 0.024352
+        },
+        {
+            "currency": "rupia pakistańska",
+            "code": "PKR",
+            "mid": 0.0134
+        },
+        {
+            "currency": "rupia seszelska",
+            "code": "SCR",
+            "mid": 0.2712
+        },
+        {
+            "currency": "sol (Peru)",
+            "code": "PEN",
+            "mid": 1.1079
+        },
+        {
+            "currency": "som (Kirgistan)",
+            "code": "KGS",
+            "mid": 0.0427
+        },
+        {
+            "currency": "somoni (Tadżykistan)",
+            "code": "TJS",
+            "mid": 0.4044
+        },
+        {
+            "currency": "sum (Uzbekistan)",
+            "code": "UZS",
+            "mid": 0.000316
+        },
+        {
+            "currency": "szyling kenijski",
+            "code": "KES",
+            "mid": 0.028833
+        },
+        {
+            "currency": "szyling somalijski",
+            "code": "SOS",
+            "mid": 0.006529
+        },
+        {
+            "currency": "szyling tanzański",
+            "code": "TZS",
+            "mid": 0.001409
+        },
+        {
+            "currency": "szyling ugandyjski",
+            "code": "UGX",
+            "mid": 0.001
+        },
+        {
+            "currency": "taka (Bangladesz)",
+            "code": "BDT",
+            "mid": 0.030495
+        },
+        {
+            "currency": "tala (Samoa)",
+            "code": "WST",
+            "mid": 1.3801
+        },
+        {
+            "currency": "tenge (Kazachstan)",
+            "code": "KZT",
+            "mid": 0.008068
+        },
+        {
+            "currency": "tugrik (Mongolia)",
+            "code": "MNT",
+            "mid": 0.001037
+        },
+        {
+            "currency": "vatu (Vanuatu)",
+            "code": "VUV",
+            "mid": 0.031955
+        },
+        {
+            "currency": "wymienialna marka (Bośnia i Hercegowina)",
+            "code": "BAM",
+            "mid": 2.2099
+        },
+        {
+            "currency": "złoto Zimbabwe",
+            "code": "ZWG",
+            "mid": 0.14
+        }
+    ]
+}

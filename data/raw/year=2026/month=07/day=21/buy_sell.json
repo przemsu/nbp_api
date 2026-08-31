@@ -1,0 +1,86 @@
+{
+    "table": "C",
+    "no": "139/C/NBP/2026",
+    "tradingDate": "2026-07-20",
+    "effectiveDate": "2026-07-21",
+    "rates": [
+        {
+            "currency": "dolar amerykański",
+            "code": "USD",
+            "bid": 3.758,
+            "ask": 3.834
+        },
+        {
+            "currency": "dolar australijski",
+            "code": "AUD",
+            "bid": 2.6346,
+            "ask": 2.6878
+        },
+        {
+            "currency": "dolar kanadyjski",
+            "code": "CAD",
+            "bid": 2.6762,
+            "ask": 2.7302
+        },
+        {
+            "currency": "euro",
+            "code": "EUR",
+            "bid": 4.2898,
+            "ask": 4.3764
+        },
+        {
+            "currency": "forint (Węgry)",
+            "code": "HUF",
+            "bid": 0.011895,
+            "ask": 0.012135
+        },
+        {
+            "currency": "frank szwajcarski",
+            "code": "CHF",
+            "bid": 4.6423,
+            "ask": 4.7361
+        },
+        {
+            "currency": "funt szterling",
+            "code": "GBP",
+            "bid": 5.0554,
+            "ask": 5.1576
+        },
+        {
+            "currency": "jen (Japonia)",
+            "code": "JPY",
+            "bid": 0.023128,
+            "ask": 0.023596
+        },
+        {
+            "currency": "korona czeska",
+            "code": "CZK",
+            "bid": 0.1773,
+            "ask": 0.1809
+        },
+        {
+            "currency": "korona duńska",
+            "code": "DKK",
+            "bid": 0.5738,
+            "ask": 0.5854
+        },
+        {
+            "currency": "korona norweska",
+            "code": "NOK",
+            "bid": 0.3886,
+            "ask": 0.3964
+        },
+        {
+            "currency": "korona szwedzka",
+            "code": "SEK",
+            "bid": 0.3883,
+            "ask": 0.3961
+        },
+        {
+            "currency": "SDR (MFW)",
+            "code": "XDR",
+            "bid": 5.0978,
+            "ask": 5.2008
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "table": "C",
+    "no": "141/C/NBP/2026",
+    "tradingDate": "2026-07-22",
+    "effectiveDate": "2026-07-23",
+    "rates": [
+        {
+            "currency": "dolar amerykański",
+            "code": "USD",
+            "bid": 3.7538,
+            "ask": 3.8296
+        },
+        {
+            "currency": "dolar australijski",
+            "code": "AUD",
+            "bid": 2.6259,
+            "ask": 2.6789
+        },
+        {
+            "currency": "dolar kanadyjski",
+            "code": "CAD",
+            "bid": 2.6644,
+            "ask": 2.7182
+        },
+        {
+            "currency": "euro",
+            "code": "EUR",
+            "bid": 4.2845,
+            "ask": 4.3711
+        },
+        {
+            "currency": "forint (Węgry)",
+            "code": "HUF",
+            "bid": 0.01181,
+            "ask": 0.012048
+        },
+        {
+            "currency": "frank szwajcarski",
+            "code": "CHF",
+            "bid": 4.6212,
+            "ask": 4.7146
+        },
+        {
+            "currency": "funt szterling",
+            "code": "GBP",
+            "bid": 5.0255,
+            "ask": 5.1271
+        },
+        {
+            "currency": "jen (Japonia)",
+            "code": "JPY",
+            "bid": 0.02302,
+            "ask": 0.023486
+        },
+        {
+            "currency": "korona czeska",
+            "code": "CZK",
+            "bid": 0.1774,
+            "ask": 0.181
+        },
+        {
+            "currency": "korona duńska",
+            "code": "DKK",
+            "bid": 0.5731,
+            "ask": 0.5847
+        },
+        {
+            "currency": "korona norweska",
+            "code": "NOK",
+            "bid": 0.3912,
+            "ask": 0.3992
+        },
+        {
+            "currency": "korona szwedzka",
+            "code": "SEK",
+            "bid": 0.3874,
+            "ask": 0.3952
+        },
+        {
+            "currency": "SDR (MFW)",
+            "code": "XDR",
+            "bid": 5.0983,
+            "ask": 5.2013
+        }
+    ]
+}

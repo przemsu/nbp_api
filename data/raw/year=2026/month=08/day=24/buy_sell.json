@@ -1,0 +1,86 @@
+{
+    "table": "C",
+    "no": "163/C/NBP/2026",
+    "tradingDate": "2026-08-21",
+    "effectiveDate": "2026-08-24",
+    "rates": [
+        {
+            "currency": "dolar amerykański",
+            "code": "USD",
+            "bid": 3.6538,
+            "ask": 3.7276
+        },
+        {
+            "currency": "dolar australijski",
+            "code": "AUD",
+            "bid": 2.6199,
+            "ask": 2.6729
+        },
+        {
+            "currency": "dolar kanadyjski",
+            "code": "CAD",
+            "bid": 2.6575,
+            "ask": 2.7111
+        },
+        {
+            "currency": "euro",
+            "code": "EUR",
+            "bid": 4.2689,
+            "ask": 4.3551
+        },
+        {
+            "currency": "forint (Węgry)",
+            "code": "HUF",
+            "bid": 0.011768,
+            "ask": 0.012006
+        },
+        {
+            "currency": "frank szwajcarski",
+            "code": "CHF",
+            "bid": 4.5667,
+            "ask": 4.6589
+        },
+        {
+            "currency": "funt szterling",
+            "code": "GBP",
+            "bid": 4.9849,
+            "ask": 5.0857
+        },
+        {
+            "currency": "jen (Japonia)",
+            "code": "JPY",
+            "bid": 0.023013,
+            "ask": 0.023477
+        },
+        {
+            "currency": "korona czeska",
+            "code": "CZK",
+            "bid": 0.177,
+            "ask": 0.1806
+        },
+        {
+            "currency": "korona duńska",
+            "code": "DKK",
+            "bid": 0.571,
+            "ask": 0.5826
+        },
+        {
+            "currency": "korona norweska",
+            "code": "NOK",
+            "bid": 0.3934,
+            "ask": 0.4014
+        },
+        {
+            "currency": "korona szwedzka",
+            "code": "SEK",
+            "bid": 0.3863,
+            "ask": 0.3941
+        },
+        {
+            "currency": "SDR (MFW)",
+            "code": "XDR",
+            "bid": 5.0215,
+            "ask": 5.1229
+        }
+    ]
+}
