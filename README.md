@@ -4,9 +4,11 @@ A robust, automated ETL (Extract, Transform, Load) pipeline designed to fetch, s
 
 ## 🚀 Features
 
-- **Automated Extraction**: Daily snapshots of FX rates (Tables A, B, C) and Gold prices.
+- **Automated Extraction**: Daily snapshots of FX rates (Tables A, B, C) and Gold prices, with reactive backfill for missing dates.
 - **Medallion Architecture**:
     - **Bronze Layer**: Raw JSON snapshots stored in a persistent `DuckDB` database with UPSERT logic to prevent duplicates.
+    - **Silver Layer**: Cleaned and structured DuckDB views parsed from raw JSON — mid-rate currencies, buy/sell currencies, and gold prices.
+    - **Gold Layer** *(in progress)*: Analytical view (`gold_wealth_index`) joining silver layers to compute purchasing-power metrics per currency.
     - **Data Lake**: Local storage of raw JSON files organized by date (`year/month/day`).
 - **Production-Ready Logging**: Centralized logging system with timezone-aware timestamps (Europe/Warsaw) and module-specific loggers.
 - **Robust CI/CD**: GitHub Actions workflow for daily automated runs with conflict resolution for log files.
@@ -25,13 +27,16 @@ A robust, automated ETL (Extract, Transform, Load) pipeline designed to fetch, s
 
 ```text
 ├── etl/
-│   ├── extract/       # API extraction logic (Raw data)
-│   └── transform/     # Data loading into DuckDB (Bronze layer)
+│   ├── extract/       # API extraction logic (Raw data + backfill)
+│   └── transform/     # Data loading into DuckDB (Bronze & Silver layers)
 ├── src/
 │   └── utils/         # DB management, Logging setup, Config loader
 ├── data/
 │   ├── raw/           # Raw JSON files (Data Lake)
-│   └── db/            # Persistent DuckDB files
+│   ├── db/            # Persistent DuckDB files
+│   └── sql_files/
+│       ├── ddl/       # Silver & Gold layer view definitions (.sql)
+│       └── dml/       # DML scripts
 ├── .github/workflows/ # Automation (CI/CD)
 ├── logs/              # Application execution logs
 └── config.yaml        # Centralized configuration
@@ -59,8 +64,8 @@ A robust, automated ETL (Extract, Transform, Load) pipeline designed to fetch, s
 
 - [x] **Sprint 1: Foundations** (Logging, Config, Basic Extraction)
 - [x] **Sprint 2: Bronze Layer** (DuckDB Integration, Incremental Loading)
-- [ ] **Sprint 3: Silver Layer** (Data Cleaning, PLN Inversion Logic)
-- [ ] **Sprint 4: Gold Layer** (Analytics Views, Purchasing Power Index)
+- [x] **Sprint 3: Silver Layer** (DuckDB Views: mid-rate currencies, buy/sell currencies, gold prices)
+- [ ] **Sprint 4: Gold Layer** (Analytics Views, Purchasing Power Index) ← `gold_wealth_index` view started
 - [ ] **Sprint 5: API Distribution** (FastAPI Integration)
 
 ## 🛡️ Best Practices Implemented
