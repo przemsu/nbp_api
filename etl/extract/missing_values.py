@@ -16,8 +16,10 @@ def get_missing_data() -> list:
         datetime.strptime(f"{f.parts[2].split('=')[-1]}-{f.parts[3].split('=')[-1]}-{f.parts[4].split('=')[-1]}", "%Y-%m-%d").date()
         for f in files
     ]))
-
-    start_date = datetime.now() - timedelta(days=14)
+    
+    #Stating from day before, otherwise current day will be the one missing
+    yesterday = datetime.now() - timedelta(days=1)
+    start_date = yesterday - timedelta(days=14)
 
     list_of_dates = [
         (start_date + timedelta(days=i)).date() 
