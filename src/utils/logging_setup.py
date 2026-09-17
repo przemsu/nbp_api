@@ -1,6 +1,8 @@
 import logging
 import time
 from pathlib import Path
+from datetime import datetime, date
+
 
 def setup_logging():
     """
@@ -11,6 +13,8 @@ def setup_logging():
     if not log_dir.exists():
         log_dir.mkdir(parents=True, exist_ok=True)
 
+    daily_batch_date = datetime.now().date().strftime('%Y_%m_%d')
+
     # Force logging to use local time instead of UTC
     logging.Formatter.converter = time.localtime
 
@@ -19,8 +23,7 @@ def setup_logging():
         format='%(asctime)s | %(name)s | %(levelname)s | %(message)s',
         datefmt='%Y-%m-%d %H:%M:%S %z',
         handlers=[
-            logging.FileHandler(log_dir / "logs.log", encoding='utf-8', mode='a'),
+            logging.FileHandler(log_dir / f"{daily_batch_date}_logs.log", encoding='utf-8', mode='a'),
             logging.StreamHandler()
         ]
     )
-
