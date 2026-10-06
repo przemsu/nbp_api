@@ -1,0 +1,86 @@
+{
+    "table": "C",
+    "no": "193/C/NBP/2026",
+    "tradingDate": "2026-10-02",
+    "effectiveDate": "2026-10-05",
+    "rates": [
+        {
+            "currency": "dolar amerykański",
+            "code": "USD",
+            "bid": 3.8419,
+            "ask": 3.9195
+        },
+        {
+            "currency": "dolar australijski",
+            "code": "AUD",
+            "bid": 2.6796,
+            "ask": 2.7338
+        },
+        {
+            "currency": "dolar kanadyjski",
+            "code": "CAD",
+            "bid": 2.7009,
+            "ask": 2.7555
+        },
+        {
+            "currency": "euro",
+            "code": "EUR",
+            "bid": 4.3321,
+            "ask": 4.4197
+        },
+        {
+            "currency": "forint (Węgry)",
+            "code": "HUF",
+            "bid": 0.011783,
+            "ask": 0.012021
+        },
+        {
+            "currency": "frank szwajcarski",
+            "code": "CHF",
+            "bid": 4.6405,
+            "ask": 4.7343
+        },
+        {
+            "currency": "funt szterling",
+            "code": "GBP",
+            "bid": 5.0895,
+            "ask": 5.1923
+        },
+        {
+            "currency": "jen (Japonia)",
+            "code": "JPY",
+            "bid": 0.024395,
+            "ask": 0.024887
+        },
+        {
+            "currency": "korona czeska",
+            "code": "CZK",
+            "bid": 0.1774,
+            "ask": 0.181
+        },
+        {
+            "currency": "korona duńska",
+            "code": "DKK",
+            "bid": 0.5796,
+            "ask": 0.5914
+        },
+        {
+            "currency": "korona norweska",
+            "code": "NOK",
+            "bid": 0.4004,
+            "ask": 0.4084
+        },
+        {
+            "currency": "korona szwedzka",
+            "code": "SEK",
+            "bid": 0.384,
+            "ask": 0.3918
+        },
+        {
+            "currency": "SDR (MFW)",
+            "code": "XDR",
+            "bid": 5.1993,
+            "ask": 5.3043
+        }
+    ]
+}
