@@ -1,62 +1,62 @@
 {
     "table": "A",
-    "no": "199/A/NBP/2026",
-    "effectiveDate": "2026-10-13",
+    "no": "200/A/NBP/2026",
+    "effectiveDate": "2026-10-14",
     "rates": [
         {
             "currency": "bat (Tajlandia)",
             "code": "THB",
-            "mid": 0.1168
+            "mid": 0.1162
         },
         {
             "currency": "dolar amerykański",
             "code": "USD",
-            "mid": 3.9177
+            "mid": 3.9042
         },
         {
             "currency": "dolar australijski",
             "code": "AUD",
-            "mid": 2.7311
+            "mid": 2.7362
         },
         {
             "currency": "dolar Hongkongu",
             "code": "HKD",
-            "mid": 0.4992
+            "mid": 0.4975
         },
         {
             "currency": "dolar kanadyjski",
             "code": "CAD",
-            "mid": 2.7471
+            "mid": 2.7466
         },
         {
             "currency": "dolar nowozelandzki",
             "code": "NZD",
-            "mid": 2.1955
+            "mid": 2.1939
         },
         {
             "currency": "dolar singapurski",
             "code": "SGD",
-            "mid": 3.0611
+            "mid": 3.0456
         },
         {
             "currency": "euro",
             "code": "EUR",
-            "mid": 4.3806
+            "mid": 4.3706
         },
         {
             "currency": "forint (Węgry)",
             "code": "HUF",
-            "mid": 0.01203
+            "mid": 0.012016
         },
         {
             "currency": "frank szwajcarski",
             "code": "CHF",
-            "mid": 4.7032
+            "mid": 4.6835
         },
         {
             "currency": "funt szterling",
             "code": "GBP",
-            "mid": 5.1857
+            "mid": 5.1775
         },
         {
             "currency": "hrywna (Ukraina)",
@@ -66,102 +66,102 @@
         {
             "currency": "jen (Japonia)",
             "code": "JPY",
-            "mid": 0.024818
+            "mid": 0.024638
         },
         {
             "currency": "korona czeska",
             "code": "CZK",
-            "mid": 0.1799
+            "mid": 0.1793
         },
         {
             "currency": "korona duńska",
             "code": "DKK",
-            "mid": 0.586
+            "mid": 0.5847
         },
         {
             "currency": "korona islandzka",
             "code": "ISK",
-            "mid": 0.032163
+            "mid": 0.03209
         },
         {
             "currency": "korona norweska",
             "code": "NOK",
-            "mid": 0.4101
+            "mid": 0.4112
         },
         {
             "currency": "korona szwedzka",
             "code": "SEK",
-            "mid": 0.3919
+            "mid": 0.3918
         },
         {
             "currency": "lej rumuński",
             "code": "RON",
-            "mid": 0.8203
+            "mid": 0.8179
         },
         {
             "currency": "lira turecka",
             "code": "TRY",
-            "mid": 0.0793
+            "mid": 0.079
         },
         {
             "currency": "nowy izraelski szekel",
             "code": "ILS",
-            "mid": 1.2739
+            "mid": 1.2711
         },
         {
             "currency": "peso chilijskie",
             "code": "CLP",
-            "mid": 0.004011
+            "mid": 0.003974
         },
         {
             "currency": "peso filipińskie",
             "code": "PHP",
-            "mid": 0.0624
+            "mid": 0.0621
         },
         {
             "currency": "peso meksykańskie",
             "code": "MXN",
-            "mid": 0.2147
+            "mid": 0.2125
         },
         {
             "currency": "rand (Republika Południowej Afryki)",
             "code": "ZAR",
-            "mid": 0.2378
+            "mid": 0.2368
         },
         {
             "currency": "real (Brazylia)",
             "code": "BRL",
-            "mid": 0.7856
+            "mid": 0.7767
         },
         {
             "currency": "ringgit (Malezja)",
             "code": "MYR",
-            "mid": 0.9588
+            "mid": 0.9563
         },
         {
             "currency": "rupia indonezyjska",
             "code": "IDR",
-            "mid": 0.00021899
+            "mid": 0.00021811
         },
         {
             "currency": "rupia indyjska",
             "code": "INR",
-            "mid": 0.04111
+            "mid": 0.04107
         },
         {
             "currency": "won południowokoreański",
             "code": "KRW",
-            "mid": 0.002922
+            "mid": 0.002923
         },
         {
             "currency": "yuan renminbi (Chiny)",
             "code": "CNY",
-            "mid": 0.5852
+            "mid": 0.5833
         },
         {
             "currency": "SDR (MFW)",
             "code": "XDR",
-            "mid": 5.2901
+            "mid": 5.284
         }
     ]
 }
