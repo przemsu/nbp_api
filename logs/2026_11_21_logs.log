@@ -1,0 +1,27 @@
+2026-11-21 00:58:03 +0100 | __main__ | INFO | Found 0 missing dates.
+2026-11-21 00:58:03 +0100 | __main__ | INFO | Data history on disk is complete.
+2026-11-21 00:58:03 +0100 | __main__ | INFO | Starting current rates download (Daily Load)...
+2026-11-21 00:58:03 +0100 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-11-21 00:58:04 +0100 | etl.extract.get_raw_data | ERROR | Failed to process main: 500 Server Error: Internal Server Error for url: https://api.nbp.pl/api/exchangerates/tables/a/
+Traceback (most recent call last):
+  File "/home/runner/work/nbp_api/nbp_api/etl/extract/get_raw_data.py", line 41, in get_raw_nbp_api_data
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://api.nbp.pl/api/exchangerates/tables/a/
+2026-11-21 00:58:04 +0100 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-11-21 00:58:04 +0100 | etl.extract.get_raw_data | INFO | API request for alt successful.
+2026-11-21 00:58:04 +0100 | etl.extract.get_raw_data | INFO | Raw data for alt saved at data/raw/year=2026/month=11/day=21
+2026-11-21 00:58:04 +0100 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-11-21 00:58:05 +0100 | etl.extract.get_raw_data | INFO | API request for buy_sell successful.
+2026-11-21 00:58:05 +0100 | etl.extract.get_raw_data | INFO | Raw data for buy_sell saved at data/raw/year=2026/month=11/day=21
+2026-11-21 00:58:05 +0100 | etl.extract.get_raw_data | INFO | Config file loaded.
+2026-11-21 00:58:06 +0100 | etl.extract.get_raw_data | INFO | API request for gold successful.
+2026-11-21 00:58:06 +0100 | etl.extract.get_raw_data | INFO | Raw data for gold saved at data/raw/year=2026/month=11/day=21
+2026-11-21 00:58:06 +0100 | etl.transform.raw_to_bronze | INFO | Found 550 files in data/raw
+2026-11-21 00:58:07 +0100 | etl.transform.raw_to_bronze | INFO | Bronze layer load finished. Success: 550, Errors: 0
+2026-11-21 00:58:07 +0100 | etl.transform.bronze_to_silver | INFO | View SILVER_MID_CURRENCIES_RATES created.
+2026-11-21 00:58:07 +0100 | etl.transform.bronze_to_silver | INFO | View SILVER_BUY_SELL_CURRENCIES created.
+2026-11-21 00:58:07 +0100 | etl.transform.bronze_to_silver | INFO | View SILVER_GOLD_RATES created.
+2026-11-21 00:58:07 +0100 | etl.transform.bronze_to_silver | INFO | View GOLD_WEALTH_INDEX created.
+2026-11-21 00:58:07 +0100 | etl.transform.bronze_to_silver | INFO | Silver layer load finished. 4 views added to db.
